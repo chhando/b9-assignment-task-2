@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*.... Header section start.... */
+
+.header-img-container {
+    max-width: 1140px;
+    background:rgba(0,0,0,0.3) url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 10px 250px 5px 250px;
+}
+
+.input-items {
+    display: inline-flex;
+    padding: 1rem;
+    gap: 24px;
+    margin-left:150px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-item {
+    width: 190px;
+    height: 52px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+
+/* Responsive design */
+
+/* Heder responsive design */
+@media  screen  and (max-width:600px) {
+
+    .header-title{
+        font-size:30px;
+        padding-top: 40px;
+    }
+    .header-description{
+        padding:10px;
+    }
+    .input-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 350px;
+    }
+    .input-item{
+        width: 300px;
+    }
+}
